@@ -11,12 +11,33 @@ body{
     flex-direction: column;
     align-items: center;
     height: 100vh;
+    padding: 10vh;
+    background-color: rgb(10, 11, 11)
 }
-
+/* dropdown styling */
 #dropdown{
-    
+    display: flex;
+    flex-direction: column;
 }
 
 button{
-    color: black;
+    border: none;
+    background: rgb(29, 116, 0);
+    color: rgb(211, 211, 211);
+    padding: 10px;
+}
+
+.invisible{
+opacity: 0%;
+transition: 0.4s;
+}
+
+.visible{
+    background: rgb(14, 41, 6);
+    color: rgb(211, 211, 211);
+    transition: 0.4s;
+}
+
+.visible:hover{
+    background: rgb(31, 88, 13);
 }
