@@ -1,7 +1,7 @@
 {
-  "name": "template1",
+  "name": "dropdown-carousel",
   "version": "1.0.0",
-  "description": "my template with a webpack config and a few plugins",
+  "description": "simple dropDown and carousel(no animations)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
