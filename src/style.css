@@ -66,18 +66,39 @@ svg:hover {
 #slidesContainer {
   flex: 5;
   overflow: hidden;
-  position: relative;
 }
 
 #slides {
   display: flex;
   align-items: center;
+  transition: 0.5s ease-in-out;
 }
 
 #slides > img {
   width: 100%;
-  /* display: flex; */
   height: 100%;
   object-fit: fill;
-  /* transition: transform 0.5s ease-in-out; */
+}
+
+#buttons{
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  display: flex;
+  justify-content: space-between;
+  gap: 2vw;
+  transform: translateX(-50%);
+}
+
+.circle{
+  padding: 0;
+  background: none;
+  border: 1px solid whitesmoke;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+}
+
+.circle.selected{
+  background: rgba(214, 214, 214,0.5);
 }
